@@ -130,7 +130,8 @@ ngx_module_t ngx_http_show_args_module = {
 };
 
 static ngx_int_t
-ngx_http_show_args_handler(ngx_http_request_t *r) {
+ngx_http_show_args_handler(ngx_http_request_t *r)
+{
     if (!(r->method & (NGX_HTTP_GET|NGX_HTTP_HEAD))) {
         return NGX_HTTP_NOT_ALLOWED;
     }

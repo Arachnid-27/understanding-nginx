@@ -192,7 +192,6 @@ ngx_http_proxy_baidu_merge_loc_conf(ngx_conf_t *cf, void *parent, void *child)
     }
 
     return NGX_CONF_OK;
-
 }
 
 static char*
